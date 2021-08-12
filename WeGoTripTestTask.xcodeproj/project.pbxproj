@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		DB0D78AA26BA8A7A003F4A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78A926BA8A7A003F4A9A /* AppDelegate.swift */; };
 		DB0D78AC26BA8A7A003F4A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78AB26BA8A7A003F4A9A /* SceneDelegate.swift */; };
-		DB0D78AE26BA8A7A003F4A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78AD26BA8A7A003F4A9A /* ViewController.swift */; };
+		DB0D78AE26BA8A7A003F4A9A /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78AD26BA8A7A003F4A9A /* MainScreenViewController.swift */; };
 		DB0D78B126BA8A7A003F4A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0D78AF26BA8A7A003F4A9A /* Main.storyboard */; };
 		DB0D78B326BA8A7B003F4A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0D78B226BA8A7B003F4A9A /* Assets.xcassets */; };
 		DB0D78B626BA8A7B003F4A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB0D78B426BA8A7B003F4A9A /* LaunchScreen.storyboard */; };
+		DB0D78BE26BA8B44003F4A9A /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78BD26BA8B44003F4A9A /* Step.swift */; };
+		DB0D78C026BA8C38003F4A9A /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78BF26BA8C38003F4A9A /* Tour.swift */; };
+		DB0D78C226BA90AF003F4A9A /* ListOfToursTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78C126BA90AF003F4A9A /* ListOfToursTableViewController.swift */; };
+		DB0D78C626BA9EAA003F4A9A /* RoundButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78C526BA9EAA003F4A9A /* RoundButtonWithShadow.swift */; };
+		DB0D78CA26BC14B3003F4A9A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78C926BC14B3003F4A9A /* DetailsViewController.swift */; };
+		DB0D78CC26BFBFDB003F4A9A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */; };
+		DB0D78CE26BFC041003F4A9A /* ListOfStepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78CD26BFC041003F4A9A /* ListOfStepsTableViewController.swift */; };
+		DB2B05DF26C3CBE000F5944D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05DE26C3CBE000F5944D /* NetworkController.swift */; };
+		DB2B05E126C3CC6000F5944D /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05E026C3CC6000F5944D /* ResponseModels.swift */; };
+		DB2B05E326C3E61500F5944D /* ListOfRemainingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */; };
+		DB2B05E526C3F1F900F5944D /* RemainingStepTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05E426C3F1F900F5944D /* RemainingStepTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB0D78A626BA8A7A003F4A9A /* WeGoTripTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeGoTripTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0D78A926BA8A7A003F4A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB0D78AB26BA8A7A003F4A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB0D78AD26BA8A7A003F4A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB0D78AD26BA8A7A003F4A9A /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		DB0D78B026BA8A7A003F4A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB0D78B226BA8A7B003F4A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0D78B526BA8A7B003F4A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB0D78B726BA8A7B003F4A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0D78BD26BA8B44003F4A9A /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		DB0D78BF26BA8C38003F4A9A /* Tour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
+		DB0D78C126BA90AF003F4A9A /* ListOfToursTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfToursTableViewController.swift; sourceTree = "<group>"; };
+		DB0D78C526BA9EAA003F4A9A /* RoundButtonWithShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButtonWithShadow.swift; sourceTree = "<group>"; };
+		DB0D78C926BC14B3003F4A9A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		DB0D78CD26BFC041003F4A9A /* ListOfStepsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStepsTableViewController.swift; sourceTree = "<group>"; };
+		DB2B05DE26C3CBE000F5944D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		DB2B05E026C3CC6000F5944D /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
+		DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfRemainingStepsViewController.swift; sourceTree = "<group>"; };
+		DB2B05E426C3F1F900F5944D /* RemainingStepTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingStepTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,50 @@
 		DB0D78A826BA8A7A003F4A9A /* WeGoTripTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				DB1D7F7B26C55FFB004CEFC8 /* Model */,
+				DB1D7F7D26C5607B004CEFC8 /* View */,
+				DB1D7F7C26C56024004CEFC8 /* Controller */,
 				DB0D78A926BA8A7A003F4A9A /* AppDelegate.swift */,
 				DB0D78AB26BA8A7A003F4A9A /* SceneDelegate.swift */,
-				DB0D78AD26BA8A7A003F4A9A /* ViewController.swift */,
-				DB0D78AF26BA8A7A003F4A9A /* Main.storyboard */,
 				DB0D78B226BA8A7B003F4A9A /* Assets.xcassets */,
-				DB0D78B426BA8A7B003F4A9A /* LaunchScreen.storyboard */,
 				DB0D78B726BA8A7B003F4A9A /* Info.plist */,
 			);
 			path = WeGoTripTestTask;
+			sourceTree = "<group>";
+		};
+		DB1D7F7B26C55FFB004CEFC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D78BD26BA8B44003F4A9A /* Step.swift */,
+				DB0D78BF26BA8C38003F4A9A /* Tour.swift */,
+				DB2B05E026C3CC6000F5944D /* ResponseModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB1D7F7C26C56024004CEFC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D78C126BA90AF003F4A9A /* ListOfToursTableViewController.swift */,
+				DB0D78CD26BFC041003F4A9A /* ListOfStepsTableViewController.swift */,
+				DB0D78AD26BA8A7A003F4A9A /* MainScreenViewController.swift */,
+				DB0D78C926BC14B3003F4A9A /* DetailsViewController.swift */,
+				DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */,
+				DB2B05DE26C3CBE000F5944D /* NetworkController.swift */,
+				DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB1D7F7D26C5607B004CEFC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB0D78B426BA8A7B003F4A9A /* LaunchScreen.storyboard */,
+				DB0D78AF26BA8A7A003F4A9A /* Main.storyboard */,
+				DB0D78C526BA9EAA003F4A9A /* RoundButtonWithShadow.swift */,
+				DB2B05E426C3F1F900F5944D /* RemainingStepTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +194,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0D78AE26BA8A7A003F4A9A /* ViewController.swift in Sources */,
+				DB2B05DF26C3CBE000F5944D /* NetworkController.swift in Sources */,
+				DB0D78CE26BFC041003F4A9A /* ListOfStepsTableViewController.swift in Sources */,
+				DB2B05E126C3CC6000F5944D /* ResponseModels.swift in Sources */,
+				DB0D78AE26BA8A7A003F4A9A /* MainScreenViewController.swift in Sources */,
+				DB0D78BE26BA8B44003F4A9A /* Step.swift in Sources */,
+				DB0D78CC26BFBFDB003F4A9A /* AudioPlayer.swift in Sources */,
+				DB2B05E526C3F1F900F5944D /* RemainingStepTableViewCell.swift in Sources */,
+				DB0D78C226BA90AF003F4A9A /* ListOfToursTableViewController.swift in Sources */,
+				DB2B05E326C3E61500F5944D /* ListOfRemainingStepsViewController.swift in Sources */,
+				DB0D78CA26BC14B3003F4A9A /* DetailsViewController.swift in Sources */,
 				DB0D78AA26BA8A7A003F4A9A /* AppDelegate.swift in Sources */,
+				DB0D78C026BA8C38003F4A9A /* Tour.swift in Sources */,
 				DB0D78AC26BA8A7A003F4A9A /* SceneDelegate.swift in Sources */,
+				DB0D78C626BA9EAA003F4A9A /* RoundButtonWithShadow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9Z2P7G9Y2;
 				INFOPLIST_FILE = WeGoTripTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.WeGoTripTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +377,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q9Z2P7G9Y2;
 				INFOPLIST_FILE = WeGoTripTestTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +385,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.WeGoTripTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

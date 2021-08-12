@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  WeGoTripTestTask
-//
-//  Created by Александр Арменшин on 04.08.2021.
-//
-
 import UIKit
 
 @main
