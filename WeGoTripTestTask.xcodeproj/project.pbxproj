@@ -20,6 +20,7 @@
 		DB0D78CA26BC14B3003F4A9A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78C926BC14B3003F4A9A /* DetailsViewController.swift */; };
 		DB0D78CC26BFBFDB003F4A9A /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */; };
 		DB0D78CE26BFC041003F4A9A /* ListOfStepsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0D78CD26BFC041003F4A9A /* ListOfStepsTableViewController.swift */; };
+		DB1D7F7F26C64A0A004CEFC8 /* SwipeDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1D7F7E26C64A0A004CEFC8 /* SwipeDownViewController.swift */; };
 		DB2B05DF26C3CBE000F5944D /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05DE26C3CBE000F5944D /* NetworkController.swift */; };
 		DB2B05E126C3CC6000F5944D /* ResponseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05E026C3CC6000F5944D /* ResponseModels.swift */; };
 		DB2B05E326C3E61500F5944D /* ListOfRemainingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */; };
@@ -42,6 +43,7 @@
 		DB0D78C926BC14B3003F4A9A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		DB0D78CD26BFC041003F4A9A /* ListOfStepsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfStepsTableViewController.swift; sourceTree = "<group>"; };
+		DB1D7F7E26C64A0A004CEFC8 /* SwipeDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeDownViewController.swift; sourceTree = "<group>"; };
 		DB2B05DE26C3CBE000F5944D /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 		DB2B05E026C3CC6000F5944D /* ResponseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModels.swift; sourceTree = "<group>"; };
 		DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfRemainingStepsViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				DB2B05E226C3E61500F5944D /* ListOfRemainingStepsViewController.swift */,
 				DB2B05DE26C3CBE000F5944D /* NetworkController.swift */,
 				DB0D78CB26BFBFDB003F4A9A /* AudioPlayer.swift */,
+				DB1D7F7E26C64A0A004CEFC8 /* SwipeDownViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				DB2B05DF26C3CBE000F5944D /* NetworkController.swift in Sources */,
 				DB0D78CE26BFC041003F4A9A /* ListOfStepsTableViewController.swift in Sources */,
+				DB1D7F7F26C64A0A004CEFC8 /* SwipeDownViewController.swift in Sources */,
 				DB2B05E126C3CC6000F5944D /* ResponseModels.swift in Sources */,
 				DB0D78AE26BA8A7A003F4A9A /* MainScreenViewController.swift in Sources */,
 				DB0D78BE26BA8B44003F4A9A /* Step.swift in Sources */,

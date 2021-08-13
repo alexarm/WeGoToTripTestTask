@@ -2,10 +2,7 @@ import UIKit
 import Foundation
 import AVFoundation
 
-class DetailsViewController: UIViewController {
-
-    var originalPosition: CGPoint?
-    var currentPositionTouched: CGPoint?
+class DetailsViewController: SwipeDownViewController {
     
     var tour: Tour?
     var currentStep: Int?
@@ -31,9 +28,6 @@ class DetailsViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.layer.cornerRadius = 10
-        
-        let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panGestureAction(_:)))
-        view.addGestureRecognizer(panGestureRecognizer)
         
         tourTitleLabel.text = tour?.title
         tourDescriptionTextView.text = tour?.description
@@ -178,32 +172,5 @@ class DetailsViewController: UIViewController {
     
     @IBSegueAction func goToRemainingSteps(_ coder: NSCoder, sender: Any?) -> ListOfRemainingStepsViewController? {
         return ListOfRemainingStepsViewController(coder: coder, tour: tour!, currentStep: currentStep!)
-    }
-    
-    @IBAction func panGestureAction(_ panGesture: UIPanGestureRecognizer) {
-        let translation = panGesture.translation(in: view)
-        
-        if panGesture.state == .began {
-            originalPosition = view.center
-            currentPositionTouched = panGesture.location(in: view)
-        } else if panGesture.state == .changed {
-            view.frame.origin = CGPoint(x: self.view.frame.origin.x, y: translation.y)
-        } else if panGesture.state == .ended {
-            let velocity = panGesture.velocity(in: view)
-            
-            if velocity.y >= 1000 {
-                UIView.animate(withDuration: 0.2, animations: {
-                    self.view.frame.origin = CGPoint(x: self.view.frame.origin.x, y: self.view.frame.size.height)
-                }, completion: { (isCompleted) in
-                    if isCompleted {
-                        self.dismiss(animated: false, completion: nil)
-                    }
-                })
-            } else {
-                UIView.animate(withDuration: 0.2, animations: {
-                    self.view.center = self.originalPosition!
-                })
-            }
-        }
     }
 }

@@ -1,6 +1,6 @@
 import UIKit
 
-class ListOfRemainingStepsViewController: UIViewController {
+class ListOfRemainingStepsViewController: SwipeDownViewController {
 
     var tour: Tour
     var currentStep: Int
