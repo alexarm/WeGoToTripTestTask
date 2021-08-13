@@ -6,6 +6,7 @@ class ListOfRemainingStepsViewController: SwipeDownViewController {
     var currentStep: Int
     
     @IBOutlet var listOfSteps: UITableView!
+    @IBOutlet var titleLabel: UILabel!
     
     init?(coder: NSCoder, tour: Tour, currentStep: Int) {
         self.tour = tour
@@ -22,6 +23,8 @@ class ListOfRemainingStepsViewController: SwipeDownViewController {
 
         listOfSteps.dataSource = self
         listOfSteps.delegate = self
+        
+        titleLabel.text = tour.title
     }
 
     @IBAction func closeList(_ sender: UIButton) {

@@ -8,6 +8,8 @@ class SwipeDownViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.layer.cornerRadius = 10
+        
         panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(panGestureAction(_:)))
         view.addGestureRecognizer(panGestureRecognizer!)
     }

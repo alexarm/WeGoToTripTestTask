@@ -211,6 +211,7 @@ class MainScreenViewController: UIViewController {
             let fraction = CMTimeGetSeconds(time) / CMTimeGetSeconds(self.audioPlayer.player.currentItem!.duration)
             self.audioProgress.progress = Float(fraction)
             self.updatePlayPauseButtonImage()
+            self.updateChangeSpeedButtonText()
         }
     }
     

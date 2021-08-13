@@ -365,7 +365,7 @@
                         <outlet property="stepLabel" destination="NhO-Ac-QWq" id="Cyh-Ah-Qye"/>
                         <outlet property="stepProgress" destination="G13-hw-owV" id="SPL-z9-8mG"/>
                         <outlet property="titleLabel" destination="s6K-4G-YAc" id="emm-37-9Pk"/>
-                        <segue destination="QMM-fj-FYj" kind="presentation" identifier="GoToDetails" modalPresentationStyle="overCurrentContext" id="mBa-64-UhC"/>
+                        <segue destination="QMM-fj-FYj" kind="presentation" identifier="GoToDetails" modalPresentationStyle="overFullScreen" id="mBa-64-UhC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -420,7 +420,7 @@
                                                     <imageReference key="image" image="list.bullet" catalog="system" renderingMode="original"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="ITu-hT-Aed" kind="presentation" identifier="GoToRemaining" destinationCreationSelector="goToRemainingSteps:sender:" modalPresentationStyle="currentContext" id="hRV-4O-VwK"/>
+                                                    <segue destination="ITu-hT-Aed" kind="presentation" identifier="GoToRemaining" destinationCreationSelector="goToRemainingSteps:sender:" modalPresentationStyle="overFullScreen" id="hRV-4O-VwK"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -732,6 +732,7 @@
                     <navigationItem key="navigationItem" id="stj-G3-fMf"/>
                     <connections>
                         <outlet property="listOfSteps" destination="rKX-a5-t5P" id="OHK-ry-r33"/>
+                        <outlet property="titleLabel" destination="DGW-nc-44u" id="q9Y-g9-8Hc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gnb-z1-BhL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

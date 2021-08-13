@@ -27,8 +27,6 @@ class DetailsViewController: SwipeDownViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.layer.cornerRadius = 10
-        
         tourTitleLabel.text = tour?.title
         tourDescriptionTextView.text = tour?.description
         
